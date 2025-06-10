@@ -1,0 +1,267 @@
+/* 990 tp 1100 */
+@media (max-width: 1100px) {
+  .container {
+    max-width: 1040px;
+  }
+
+  /***** header section *****/
+  .header-section {
+    font-size: 0.95rem;
+    padding-block: 10px;
+
+    .logo-img img {
+      height: 30px;
+      width: 130px;
+    }
+
+    .extra-btn {
+      gap: 9px;
+      & > div {
+        padding-inline: 8px;
+        font-size: 0.8rem;
+        padding-block: 6px;
+      }
+
+      :is(.appointment, .help) img:first-of-type {
+        width: 12px;
+        height: 17px;
+      }
+
+      .help img:last-of-type {
+        width: 8px;
+        height: 8px;
+      }
+    }
+  }
+  /***** End header section *****/
+
+  /***** treatment section *****/
+  #treatment-section {
+    width: 700px;
+    font-size: 1rem;
+    padding-block: 1rem;
+    padding-inline: 1rem;
+    & > div {
+      padding-inline: 7px;
+      padding-block: 10px;
+      max-width: 300px;
+    }
+    .treatment-btn button {
+      font-size: 1rem;
+      padding-block: 5px;
+    }
+  }
+  /***** End treatment section *****/
+
+  /***** main section *****/
+
+  main {
+    margin-top: 55px;
+    /***** banner section *****/
+    .hero-banner {
+      .banner {
+        padding-top: 1rem;
+        padding: 20px;
+        justify-content: flex-start;
+        position: relative;
+
+        .left-hero-banner {
+          width: 70%;
+          max-width: 70%;
+          flex-grow: 1;
+          z-index: 2;
+
+          & h2 {
+            font-size: 3.2rem;
+          }
+        }
+
+        .img-banner {
+          position: absolute;
+          right: 0;
+          bottom: 0;
+        }
+        .img-banner img {
+          width: 500px;
+          height: 100%;
+          opacity: 0.7;
+        }
+      }
+    }
+    /***** End banner section *****/
+
+    /***** quick info *****/
+    .quick-info {
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      gap: 60px;
+      .quick-info-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .quick-info-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-inline: 30px;
+
+        & .google-rating {
+          .google-icon {
+            width: 50%;
+            display: flex;
+            justify-content: flex-end;
+          }
+        }
+
+        .find-location {
+          width: 100%;
+          padding-left: 30px;
+
+          & > * {
+            max-width: 400px;
+          }
+        }
+      }
+    }
+    /***** End quick info *****/
+
+    /***** people word *****/
+    .people-word {
+      #people-list {
+        .people {
+          & .people-img-div {
+            .people-img {
+              width: 160px;
+              height: clamp(250px, 250px, 250px);
+              object-fit: cover;
+            }
+          }
+        }
+      }
+    }
+    /***** End people word *****/
+
+    /***** service section *****/
+    .service-section {
+      .service-section-container {
+        padding-left: 1rem;
+        .service-first-box {
+          h5 {
+            margin-bottom: 40px;
+          }
+          .appreciate {
+            &:not(:last-child) {
+              margin-bottom: 25px;
+            }
+          }
+        }
+        & .doctor-container {
+          & #service-doctors-list {
+            & .service-doctor {
+              & .doctor-img-div {
+                .doctor-img {
+                  width: 220px;
+                  height: 230px;
+                }
+              }
+            }
+          }
+          .meet-doctor-button {
+            button {
+              font-size: 1.1rem;
+              padding-inline: 4rem;
+            }
+          }
+        }
+      }
+    }
+    /***** End service section *****/
+
+    /***** equipment *****/
+    .equipment-section {
+      gap: 30px;
+      .equipment-block {
+        .equipment-img-div {
+          width: 700px;
+          height: 400px;
+
+          .equipment-img {
+            width: clamp(700px, 700px, 700px);
+            height: clamp(400px, 400px, 400px);
+          }
+        }
+      }
+    }
+    /***** End equipment *****/
+
+    /***** blog section *****/
+    .blog-section {
+      .blog-section-container {
+        /* blog container */
+        .blog-container-wrapper {
+          .blog-container {
+            .blog-list-box {
+              column-gap: 10px;
+              row-gap: 40px;
+
+              /* blog */
+              .blog-div {
+                max-width: 320px;
+                .blog-img {
+                  width: 190px;
+                }
+                .blog-content {
+                  .blog-name {
+                    font-size: 1rem;
+                    line-height: 1.1rem;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    /***** End blog section *****/
+
+    /***** company partner  *****/
+    .partner-section {
+      & .brand-div {
+        padding-block: 15px;
+        padding-inline: 20px;
+        bottom: -50%;
+      }
+    }
+    /***** End company partner  *****/
+
+    /***** accomplish beyond dentistry section *****/
+    .accomplishment-section {
+      & .accomplish-list {
+        .accomplish-box {
+          width: clamp(160px, 240px, 240px);
+          height: clamp(150px, 150px, 150px);
+
+          .img-box {
+            img {
+              height: 50px;
+            }
+          }
+        }
+      }
+    }
+    /***** End accomplish beyond dentistry section *****/
+
+    /***** faq section *****/
+    .faq-section {
+      .faq-container {
+        font-size: 1.1rem;
+      }
+    }
+    /***** End faq section *****/
+  }
+  /***** End main section *****/
+}
